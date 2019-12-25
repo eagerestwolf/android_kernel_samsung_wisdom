@@ -7,12 +7,12 @@
 
 ## SM-P205
 To add these sources to an existing build (ROM, recovery, etc.), add the
-following to `.repo/local_manifests/wisdomub.xml`:
+following to `.repo/local_manifests/wisdom.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="eagerestwolf/android_kernel_samsung_wisdomub" path="kernel/samsung/wisdomub" remote="github" revision="android-9.0" />
+  <project name="eagerestwolf/android_kernel_samsung_wisdom" path="kernel/samsung/wisdom" remote="github" revision="android-9.0" />
 </manifest>
 ```
 Then run `repo sync` to check it out.
@@ -33,4 +33,4 @@ To build as part of a ROM, recovery, etc:
 // Instructions coming soon!
 ```
 
-Device source: https://github.com/eagerestwolf/android_device_samsung_wisdomub/
+Device source: https://github.com/eagerestwolf/android_device_samsung_wisdom/
